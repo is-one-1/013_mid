@@ -4,7 +4,7 @@ jobs:
   security:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Code scanning alerts”
+    - run: echo "Code scanning alerts!”
       - uses: actions/checkout@master
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/maven@master
